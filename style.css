@@ -1,0 +1,113 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(https://cutewallpaper.org/21/black-1920x1080-wallpaper/Dark-Desktop-Backgrounds-1920x1080-,-Best-Background-Images-.jpg);
+}
+
+.full-login-form {
+   width: 800px;
+   position: absolute;
+   left: 50%;
+   top: 260px;
+   transform: translateX(-50%);
+   overflow: hidden;
+   border-radius: 10px;
+   box-shadow: 0 0 3px 3px black;
+}
+
+.full-login-form .content-part-wrapper .content-part {
+   float: left;
+   width: 400px;
+   background: linear-gradient(rgba(0, 0, 255, 0.37),rgba(241, 123, 143, 0.432));
+   color: white;
+   padding: 90px 70px 70px 50px;
+   clear: both;
+   height: 450px;
+}
+
+.full-login-form .content-part-wrapper .content-part h2 {
+   font-family: 'Quicksand', sans-serif;
+   margin-bottom: 5px;
+}
+
+.full-login-form .content-part-wrapper .content-part hr {
+   color: white;
+   width: 45px;
+   margin-bottom: 15px;
+}
+
+.full-login-form .content-part-wrapper .content-part p {
+   text-align: justify;
+   width: 275px;
+   font-family: "koho", sans-serif;
+}
+
+.full-login-form .content-part-wrapper .content-part a {
+   margin-top: 30px;
+   display: inline-block;
+   padding: 10px 20px;
+   border-radius: 30px;
+   border: 1px solid white;
+   margin-left: -5px;
+   text-decoration: none;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   transition: .4s;
+}
+
+.full-login-form .content-part-wrapper .content-part a:hover {
+   background-color: rgba(61, 61, 63, 0.705);
+}
+
+.full-login-form .login-form-wrapper {
+   overflow: hidden;
+}
+
+.full-login-form .login-form-wrapper .login-form {
+   background-color: transparent;
+   color: white;
+   padding: 80px 70px 80px 50px;
+   width: 400px;
+   height: 450px;
+   float: right;
+   background: linear-gradient(rgba(66, 36, 36, 0.205),rgba(8, 8, 151, 0.425));
+}
+
+.full-login-form .login-form-wrapper .login-form h2 {
+   font-size: 28px;
+   font-family: 'Quicksand', sans-serif;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.full-login-form .login-form-wrapper .login-form form input {
+   background-color: transparent;
+   outline: none;
+   border: none;
+   color: white;
+   font-size: 18px;
+   border-bottom: 1px solid rgba(221, 221, 221, 0.568);
+   width: 250px;
+   margin-bottom: 45px;
+   padding: 0 0 10px 10px;
+   margin-left: 0px;
+   font-style: italic;
+}
+
+.full-login-form .login-form-wrapper .login-form form .btn {
+   border: 1px solid rgb(255, 255, 255);
+   text-align: left;
+   width: auto;
+   padding: 10px 25px;
+   border-radius: 30px;
+   transition: .4s;
+   font-style: normal;
+}
+
+.full-login-form .login-form-wrapper .login-form form .btn:hover {
+   background-color: rgba(61, 61, 63, 0.705);
+}
